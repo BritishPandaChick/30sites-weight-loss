@@ -1,0 +1,184 @@
+/* Base Styles */
+body {
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+    font-family: 'PT Serif', serif;
+}
+
+/* Header */
+header #login {
+    border: 2px solid brown;
+}
+
+header #login ul li {
+    padding: 15px;
+}
+
+header #login ul li a {
+    color: brown;
+    font-size: 20px;
+}
+
+header #header-nav {
+    background-color: brown;
+}
+
+header #header-nav .navbar-brand {
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+}
+
+/* Banner */
+#banner {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/08/05/20/adventure-1807524_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+#banner .banner-text {
+    padding: 40px 0;
+    color: #00CED1;
+}
+
+#banner .banner-text h1 {
+    font-size: 50px;
+    font-family: 'Comfortaa', cursive;
+}
+
+#banner .banner-text h4 {
+    font-size: 25px;
+}
+
+#banner .banner-text h3 {
+    font-size: 35px;
+}
+
+#banner .banner-text p {
+    font-size: 20px;
+}
+
+#banner .banner-text p a {
+    color: #fff;
+}
+
+#banner .group {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#banner .group button {
+    margin: 20px 0;
+}
+
+/* Programs */
+#programs {
+    padding: 40px 0;
+}
+
+#programs h3 {
+    font-size: 35px;
+    color: brown;
+    padding-bottom: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+#programs p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#programs a {
+    color: brown;
+    font-size: 20px;
+}
+
+/* Included */
+#included {
+    padding: 40px 0;
+    border: 2px solid brown;
+}
+
+#included h2 {
+    font-size: 45px;
+    padding-bottom: 10px;
+    font-family: 'Comfortaa', cursive;
+    color: brown;
+}
+
+#included p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#included h3 {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: brown;
+    padding-bottom: 10px;
+}
+
+#included .perks {
+    padding: 20px 0;
+}
+
+/* Footer */
+footer #footer-nav {
+    background-color: brown;
+    padding: 30px 0;
+}
+
+footer #footer-nav h4 {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer #footer-nav ul li {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+footer #footer-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer #footer-nav ul li a:hover {
+    color:#00CED1;
+}
+
+footer #footer-nav p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+}
+
+footer #footer-nav nav ul li i {
+    padding: 15px;
+    color: #fff;
+}
+
+footer #bottom-nav {
+    padding: 15px 0;
+    border: 2px solid brown;
+}
+
+footer #bottom-nav ul li a {
+    color: brown;
+    font-size: 16px;
+}
+
+footer #copyright {
+    padding: 15px 0;
+}
+
+footer #copyright p {
+    font-size: 16px;
+    font-family: 'Comfortaa', cursive;
+    color: brown;
+}
